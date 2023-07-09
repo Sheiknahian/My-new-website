@@ -1,0 +1,24 @@
+header{
+    display: flex; background-color: blueviolet; 
+    justify-content: space-between;
+    align-items: center;
+}
+header div input{
+    margin-left: 10px; justify-content: space-between; align-items: center; 
+}
+header h1{
+    margin: 20px;
+    color: yellow; font-size: 50px;
+}
+header div nav{
+    margin: 20px; 
+}
+header nav a{
+    padding: 20px; color: yellow; text-decoration: none;
+}
+header nav a:hover{
+    color: red
+}
+body{
+    background-image: url("Bi.jpg");
+}
