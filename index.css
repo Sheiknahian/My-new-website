@@ -1,11 +1,9 @@
 header{
     display: flex; background-color: blueviolet; 
     justify-content: space-between;
-    align-items: center;
+    align-items: center; padding: 10px;
 }
-header div input{
-    margin-left: 10px; justify-content: space-between; align-items: center; 
-}
+
 header h1{
     margin: 20px;
     color: yellow; font-size: 50px;
@@ -21,4 +19,19 @@ header nav a:hover{
 }
 body{
     background-image: url("Bi.jpg");
+}
+body h1{
+    
+}
+body article {
+    display: flex;
+}
+body img{
+    margin: 40px;
+}
+table{
+    border-collapse: collapse; align-items: center;
+}
+td{
+    border: solid black; padding: 10px;
 }
